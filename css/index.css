@@ -1,115 +1,136 @@
-body {
-    font-family: "Manrope", "Cabin", "Roboto", "Lato", "sans-serif";
-    font-size: 100%;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-}
-
-h1 {
-    font-size: 4.5225rem;
-}
-
-h2 {
-    font-size: 4.325rem;
-}
-
-h3 {
-    font-size: 4.025rem;
-}
-
-h4 {
-    font-size: 1.525rem;
-}
-
-h5 {
-    font-size: 1.1225rem;
-}
-
-h6 {
-    font-size: .8125rem;
-}
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
-
-/*Product Landing header*/
-
-#header {
-    padding: 20px 0;
-}
-
-.header-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 2.27%;
-    grid-template-areas: "logo . . . . . . nav-item-1 nav-item-2 nav-price ."
-}
-
-.logo {
-    grid-column: 1;
-}
-
-.nav-items {
-    grid-column: 9/13;
-}
-
-.nav-items ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-items li {
-    display: inline;
-}
-
-.nav-items ul li a {
-    padding: 0 20px 0 0;
-    text-decoration: none;
-    color: #000;
-}
-
-.hero-panel {
-    padding: 20px 0;
-}
-
-
-.bg-canvas img {
-    max-width: 100%;
-    height: 100%;
-}
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: "Manrope", "Roboto", "Lato", "sans-serif";
+            font-size: 100%;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0;
+            margin-bottom: .5rem;
+        }
+        
+        h1 {
+            font-size: 8.5225rem;
+        }
+        
+        h2 {
+            font-size: 5.325rem;
+        }
+        
+        h3 {
+            font-size: 3.525rem;
+        }
+        
+        h4 {
+            font-size: 1.525rem;
+        }
+        
+        h5 {
+            font-size: 1.1225rem;
+        }
+        
+        h6 {
+            font-size: .8125rem;
+        }
+        
+        .head-lite {
+            font-weight: 100;
+        }
+        
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .container {
+                width: 970px;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+        /*Product Landing header*/
+        
+        #header {
+            padding: 20px 0;
+        }
+        
+        .header-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column-gap: 2.27%;
+            grid-template-areas: "logo . . . . . . nav-item-1 nav-item-2 nav-price ."
+        }
+        
+        .logo {
+            grid-column: 1;
+        }
+        
+        .nav-items {
+            grid-column: 9/13;
+        }
+        
+        .nav-items ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-items li {
+            display: inline;
+        }
+        
+        .nav-items ul li a {
+            padding: 0 20px 0 0;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .hero-panel {
+            padding: 120px 0;
+        }
+        
+        .text-wrapper {
+            padding: 20px 0;
+        }
+        
+        .bg-canvas {
+            width: 100%;
+            height: 100vh;
+            clip: rect(0px, 200px, 150px, 0px);
+        }
+        
+        .bg-canvas .img-bg-01 {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        
+        .sq-block {
+            position: absolute;
+            width: 100px;
+            height: 200px;
+        }
