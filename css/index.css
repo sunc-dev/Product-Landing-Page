@@ -1,14 +1,15 @@
         body {
-            background-color: #000;
+            background-color: #313131;
             color: #fff;
             font-family: "Manrope", "Roboto", "Lato", "sans-serif";
             font-size: 100%;
+            margin: 0;
             text-rendering: optimizeLegibility;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             -webkit-text-size-adjust: 100%;
         }
-        
+
         h1,
         h2,
         h3,
@@ -18,119 +19,200 @@
             margin-top: 0;
             margin-bottom: .5rem;
         }
-        
+
         h1 {
-            font-size: 8.5225rem;
+            font-size: 6.5225rem;
         }
-        
+
         h2 {
-            font-size: 5.325rem;
+            font-size: 4.325rem;
         }
-        
+
         h3 {
-            font-size: 3.525rem;
+            font-size: 3.025rem;
         }
-        
+
         h4 {
             font-size: 1.525rem;
         }
-        
+
         h5 {
             font-size: 1.1225rem;
         }
-        
+
         h6 {
             font-size: .8125rem;
         }
-        
+
         .head-lite {
             font-weight: 100;
         }
-        
+
         .container {
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
         }
-        
+
         @media (min-width: 768px) {
             .container {
                 width: 750px;
             }
         }
-        
+
         @media (min-width: 992px) {
             .container {
                 width: 970px;
             }
         }
-        
+
         @media (min-width: 1200px) {
             .container {
                 width: 1170px;
             }
         }
-        /*Product Landing header*/
-        
-        #header {
-            padding: 20px 0;
+
+        .row {
+            display: flex;
         }
-        
+
+        @media screen and (max-width: 600px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        .tile-col {
+            flex: 50%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /*Product Landing header*/
+
+        #header {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px 0;
+            z-index: 999;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            align-self: start;
+            align-self: center;
+            justify-self: center;
+
+        }
+
+
         .header-grid {
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-column-gap: 2.27%;
-            grid-template-areas: "logo . . . . . . nav-item-1 nav-item-2 nav-price ."
+            background: transparent;
+
         }
-        
+
         .logo {
             grid-column: 1;
         }
-        
+
         .nav-items {
-            grid-column: 9/13;
+            grid-column: 13/13;
         }
-        
+
         .nav-items ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
-        
+
         .nav-items li {
             display: inline;
+            text-align: end;
         }
-        
+
         .nav-items ul li a {
             padding: 0 20px 0 0;
             text-decoration: none;
             color: #fff;
         }
-        
-        .hero-panel {
-            padding: 120px 0;
-        }
-        
+
+
+
         .text-wrapper {
-            padding: 20px 0;
+            grid-row: 2/2;
+            display: grid;
         }
-        
-        .bg-canvas {
+
+        .super-title {
+            letter-spacing: 2px;
+        }
+
+        .hero-title {
+            align-self: center;
+        }
+
+
+
+
+        #landing {
+            display: grid;
             width: 100%;
+            grid-template-rows: repeat(3, 250px);
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
             height: 100vh;
-            clip: rect(0px, 200px, 150px, 0px);
+            background: url("../img/hai.svg") no-repeat;
+            background-repeat: no-repeat;
+            background-position: 45% center;
+            background-size: cover;
+            min-height: calc(100vh);
+            min-height: calc(100vh - var(--vh-offset));
+            background-color: #2a2112;
         }
+
         
-        .bg-canvas .img-bg-01 {
+
+        .img-canvas .main-tile {
+            display: block;
             background-size: cover;
             width: 100%;
             height: 100%;
-            position: absolute;
+            position: relative;
+            z-index: 2;
+            overflow: hidden;
+            -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
         }
-        
-        .sq-block {
-            position: absolute;
-            width: 100px;
-            height: 200px;
+
+        .img-canvas img .tile-main {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+            -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+        }
+
+
+        .tile-col {
+            max-width: 50%;
+        }
+
+        .img-canvas .tile {
+            display: block;
+            background: transparent;
+            margin: 0 0.5rem 0.5rem;
+            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+        }
+
+
+        .img-canvas .tile-img {
+            background-size: cover;
+            position: relative;
+            max-width: 100%;
+            height: auto;
         }
