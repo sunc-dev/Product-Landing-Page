@@ -1,7 +1,7 @@
         body {
             background-color: #313131;
             color: #fff;
-            font-family: "Manrope", "Roboto", "Lato", "sans-serif";
+            font-family: "Manrope", "Segoe UI", "Roboto", "Lato", "sans-serif";
             font-size: 100%;
             margin: 0;
             text-rendering: optimizeLegibility;
@@ -48,6 +48,14 @@
             font-weight: 100;
         }
 
+        .head-reg {
+            font-weight: 500;
+        }
+
+        .head-med {
+            font-weight: 400;
+        }
+
         .container {
             padding-right: 15px;
             padding-left: 15px;
@@ -85,7 +93,7 @@
 
         .tile-col {
             flex: 50%;
-            max-width: 100%;
+            max-width: 50%;
             height: auto;
         }
 
@@ -143,18 +151,18 @@
         .text-wrapper {
             grid-row: 2/2;
             display: grid;
+            z-index: 999;
         }
 
         .super-title {
             letter-spacing: 2px;
+            text-transform: Uppercase;
+
         }
 
         .hero-title {
             align-self: center;
         }
-
-
-
 
         #landing {
             display: grid;
@@ -173,9 +181,20 @@
             background-color: #2a2112;
         }
 
-        
+        #landing .color-overlay {
+            background-color: #313131;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+        }
 
-        .img-canvas .main-tile {
+
+
+        .img-canvas {
             display: block;
             background-size: cover;
             width: 100%;
@@ -187,7 +206,7 @@
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
         }
 
-        .img-canvas img .tile-main {
+        .img-canvas img .tile {
             background-size: cover;
             width: 100%;
             height: 100%;
@@ -197,22 +216,23 @@
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
         }
 
-
-        .tile-col {
-            max-width: 50%;
-        }
-
-        .img-canvas .tile {
-            display: block;
-            background: transparent;
-            margin: 0 0.5rem 0.5rem;
-            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
-        }
-
-
-        .img-canvas .tile-img {
-            background-size: cover;
-            position: relative;
+        .tile-img {
             max-width: 100%;
             height: auto;
+            margin: 0;
         }
+
+        #overview {
+            background-color: #fff;
+            color: #000;
+            padding: 5% 0;
+
+    }
+
+    #overview .text-wrapper {
+        text-align: center;
+    }
+
+    .content {
+        margin: 0 5%;
+    }
