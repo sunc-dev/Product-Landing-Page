@@ -356,5 +356,13 @@
         }
 
         .price-icon {
-            color: #fff
+            display: block;
+            color: #fff;
+            width: 80px;
+            margin:auto;
+        }
+
+        .icon-box-x {
+            padding: 20px 0;
+            margin:auto;
         }
