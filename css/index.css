@@ -282,19 +282,23 @@
         }
 
         .card-box {
+            display: block;
             position: relative;
             margin: 0 3.5rem;
             bottom: 120px;
             flex: 25%;
-            height: 350px;
+            height: auto;
             max-width: 25%;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
-            z-index: 995
+            z-index: 995;
+            overflow:hidden;
         }
 
         .sub-content {
-            padding: 200px 0 0 0;
+            padding: 0 0 200px 0;
             text-align: center;
+            position: relative;
+            display: block
         }
 
         #pricing {
@@ -318,6 +322,8 @@
         }
 
         .image {
+            display:block; 
+            position: relative;
             width: 100%;
             height: auto;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
@@ -326,7 +332,7 @@
 
         .gr-canvas {
             background: #0a4f0a;
-            padding-bottom: 25px;
+            padding: 20% 0 0 0;
         }
 
 
@@ -339,7 +345,8 @@
             max-width: 33.333%;
             background: rgba(10, 90, 10, 0.8);
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
-            z-index: 995
+            z-index: 995;
+            color: #fff;
         }
 
         .title-box {
