@@ -60,6 +60,10 @@
             margin: 0 0 0 0;
             border-style: none;
         }
+
+        .center {
+            text-align: center;
+        }
         
         .container {
             padding-right: 15px;
@@ -260,11 +264,13 @@
         }
         
         #features {
-            padding: 10% 0;
+            padding: 10% 0 0 0;
             z-index: 997;
         }
         
         #features .gallery-wrapper {
+            display: grid;
+            position: relative;
             padding: 20px 0;
             height: 200px;
             background: #fff;
@@ -276,17 +282,48 @@
         
         .card-box {
             position: relative;
-            margin: 0 5.5rem;
+            margin: 0 3.5rem;
             bottom: 120px;
             flex: 25%;
             height: 350px;
             max-width: 25%;
-            border: 1px solid #fff;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             z-index: 995
         }
         
-        .use-content {
-            padding: 5% 0;
+        .sub-content {
+            padding: 200px 0 0 0;
             text-align: center;
+        }
+
+        #pricing {
+            padding: 50px 0 0 0;
+            display:block;
+            position: relative;
+            background-color: #fff;
+            color: #000;
+        }
+
+        #pricing .sub-content {
+            padding: 25px 0;
+
+        }
+
+        .head-canvas {
+            display:block;
+            margin:auto;
+            padding: 30px 0;
+
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+
+        }
+
+        .gr-canvas {
+            background: #0a4f0a;
+
         }
