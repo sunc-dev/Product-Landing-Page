@@ -9,7 +9,7 @@
             -moz-osx-font-smoothing: grayscale;
             -webkit-text-size-adjust: 100%;
         }
-        
+
         h1,
         h2,
         h3,
@@ -19,43 +19,43 @@
             margin-top: 0;
             margin-bottom: 2rem;
         }
-        
+
         h1 {
             font-size: 6.5225rem;
         }
-        
+
         h2 {
             font-size: 4.325rem;
         }
-        
+
         h3 {
-            font-size: 3.025rem;
+            font-size: 2.525rem;
         }
-        
+
         h4 {
             font-size: 1.525rem;
         }
-        
+
         h5 {
             font-size: 1.1225rem;
         }
-        
+
         h6 {
             font-size: .8125rem;
         }
-        
+
         .head-lite {
             font-weight: 100;
         }
-        
+
         .head-reg {
             font-weight: 400;
         }
-        
+
         .head-med {
             font-weight: 700;
         }
-        
+
         figure {
             margin: 0 0 0 0;
             border-style: none;
@@ -64,55 +64,56 @@
         .center {
             text-align: center;
         }
-        
+
         .container {
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
         }
-        
+
         @media (min-width: 768px) {
             .container {
                 width: 750px;
             }
         }
-        
+
         @media (min-width: 992px) {
             .container {
                 width: 970px;
             }
         }
-        
+
         @media (min-width: 1200px) {
             .container {
                 width: 1170px;
             }
         }
-        
+
         .row {
             display: flex;
         }
-        
+
         @media screen and (max-width: 600px) {
             .row {
                 flex-direction: column;
             }
         }
-        
+
         .col-wrap {
             flex: 50%;
             max-width: 50%;
             height: auto;
         }
-        
+
         @media screen and (max-width: 600px) {
             .col-wrap {
                 max-width: 100%;
             }
         }
+
         /*Product Landing header*/
-        
+
         #header {
             background-color: rgba(0, 0, 0, 0.6);
             padding: 20px 0;
@@ -125,52 +126,52 @@
             align-self: start;
             align-self: center;
         }
-        
+
         .header-grid {
             display: grid;
             background: transparent;
         }
-        
+
         .logo {
             grid-column: 1;
         }
-        
+
         .nav-items {
             grid-column: 13/13;
         }
-        
+
         .nav-items ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
-        
+
         .nav-items li {
             display: inline;
             text-align: end;
         }
-        
+
         .nav-items ul li a {
             padding: 0 20px 0 0;
             text-decoration: none;
             color: #fff;
         }
-        
+
         .text-wrapper {
             grid-row: 2/2;
             display: grid;
             z-index: 999;
         }
-        
+
         .super-title {
             letter-spacing: 2px;
             text-transform: Uppercase;
         }
-        
+
         .hero-title {
             align-self: center;
         }
-        
+
         #landing {
             display: grid;
             width: 100%;
@@ -187,7 +188,7 @@
             min-height: calc(100vh - var(--vh-offset));
             background-color: #2a2112;
         }
-        
+
         #landing .color-overlay {
             background-color: #313131;
             position: absolute;
@@ -198,7 +199,7 @@
             height: 100%;
             opacity: 0.4;
         }
-        
+
         .img-canvas {
             display: block;
             background-size: cover;
@@ -213,7 +214,7 @@
             border-radius: 0px;
             border: 0px;
         }
-        
+
         .img-canvas img .tile {
             background-size: cover;
             width: 100%;
@@ -223,13 +224,13 @@
             -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
         }
-        
+
         .tile-img {
             max-width: 100%;
             height: auto;
             margin: 0 0 -4px 0;
         }
-        
+
         #overview {
             background: url("../img/mc-full.jpg") no-repeat;
             background-position: 100% -6%;
@@ -238,15 +239,15 @@
             color: #000;
             padding: 10% 0;
         }
-        
+
         #overview .text-wrapper {
             text-align: left;
         }
-        
+
         .content {
             margin: 0 35% 0 0;
         }
-        
+
         .btn {
             background: transparent;
             border-style: none;
@@ -258,28 +259,28 @@
             border: 2px solid #0a4f0a;
             padding: 15px 10px 14px;
         }
-        
+
         .wrap {
             padding: 0 10px;
         }
-        
+
         #features {
             padding: 10% 0 0 0;
             z-index: 997;
         }
-        
+
         #features .gallery-wrapper {
             display: grid;
             position: relative;
-            padding: 20px 0;
+            padding: 15px 0;
             height: 200px;
             background: #fff;
         }
-        
+
         #features .content {
             margin: 0 35% 20% 0;
         }
-        
+
         .card-box {
             position: relative;
             margin: 0 3.5rem;
@@ -290,7 +291,7 @@
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             z-index: 995
         }
-        
+
         .sub-content {
             padding: 200px 0 0 0;
             text-align: center;
@@ -298,7 +299,7 @@
 
         #pricing {
             padding: 50px 0 0 0;
-            display:block;
+            display: block;
             position: relative;
             background-color: #fff;
             color: #000;
@@ -310,8 +311,8 @@
         }
 
         .head-canvas {
-            display:block;
-            margin:auto;
+            display: block;
+            margin: auto;
             padding: 30px 0;
 
         }
@@ -325,5 +326,35 @@
 
         .gr-canvas {
             background: #0a4f0a;
+            padding-bottom: 25px;
+        }
 
+
+
+        .price-box {
+            position: relative;
+            margin: 0 3.5rem;
+            flex: 33.333%;
+            height: 350px;
+            max-width: 33.333%;
+            background: rgba(10, 90, 10, 0.8);
+            box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+            z-index: 995
+        }
+
+        .title-box {
+            display: block;
+            margin: 25px auto;
+            align-items: center;
+            text-align: center;
+            color: #fff
+        }
+
+        .price-title {
+            letter-spacing: 2px;
+            text-transform: Uppercase;
+        }
+
+        .price-icon {
+            color: #fff
         }
