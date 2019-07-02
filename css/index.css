@@ -44,6 +44,10 @@
             font-size: .8125rem;
         }
 
+        p {
+            font-size: 1.125rem;
+        }
+
         .head-lite {
             font-weight: 100;
         }
@@ -291,7 +295,7 @@
             max-width: 25%;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             z-index: 995;
-            overflow:hidden;
+            overflow: hidden;
         }
 
         .sub-content {
@@ -322,7 +326,7 @@
         }
 
         .image {
-            display:block; 
+            display: block;
             position: relative;
             width: 100%;
             height: auto;
@@ -335,18 +339,31 @@
             padding: 20% 0 0 0;
         }
 
-
+        #pricing .w-container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
 
         .price-box {
             position: relative;
-            margin: 0 3.5rem;
-            flex: 33.333%;
-            height: 350px;
-            max-width: 33.333%;
+            margin: 0 2rem;
+            flex: 40.333%;
+            height: auto;
+            max-width: 40.333%;
             background: rgba(10, 90, 10, 0.8);
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             z-index: 995;
             color: #fff;
+        }
+
+        .plf-box {
+            display: block;
+            min-height: 300px;
+            align-items: center;
+            text-align: center;
+
         }
 
         .title-box {
@@ -361,15 +378,26 @@
             letter-spacing: 2px;
             text-transform: Uppercase;
         }
+        
+        .icon-box {
+            display: flex;
+            position: relative;
+            padding: 5px 0;
+            min-height: 75px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
 
-        .price-icon {
-            display: block;
-            color: #fff;
-            width: 80px;
-            margin:auto;
         }
 
-        .icon-box-x {
-            padding: 20px 0;
-            margin:auto;
+        .price-icon {
+            color: #fff;
+            width: 80px;
+
+        }
+
+
+
+        .feature-box {
+            padding: 15px;
         }
