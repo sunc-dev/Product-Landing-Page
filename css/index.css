@@ -9,7 +9,7 @@
             -moz-osx-font-smoothing: grayscale;
             -webkit-text-size-adjust: 100%;
         }
-
+        
         h1,
         h2,
         h3,
@@ -19,105 +19,104 @@
             margin-top: 0;
             margin-bottom: 2rem;
         }
-
+        
         h1 {
             font-size: 6.5225rem;
         }
-
+        
         h2 {
             font-size: 4.325rem;
         }
-
+        
         h3 {
             font-size: 2.525rem;
         }
-
+        
         h4 {
             font-size: 1.525rem;
         }
-
+        
         h5 {
             font-size: 1.1225rem;
         }
-
+        
         h6 {
             font-size: .8125rem;
         }
-
+        
         p {
             font-size: 1.125rem;
         }
-
+        
         .head-lite {
             font-weight: 100;
         }
-
+        
         .head-reg {
             font-weight: 400;
         }
-
+        
         .head-med {
             font-weight: 700;
         }
-
+        
         figure {
             margin: 0 0 0 0;
             border-style: none;
         }
-
+        
         .center {
             text-align: center;
         }
-
+        
         .container {
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
         }
-
+        
         @media (min-width: 768px) {
             .container {
                 width: 750px;
             }
         }
-
+        
         @media (min-width: 992px) {
             .container {
                 width: 970px;
             }
         }
-
+        
         @media (min-width: 1200px) {
             .container {
                 width: 1170px;
             }
         }
-
+        
         .row {
             display: flex;
         }
-
+        
         @media screen and (max-width: 600px) {
             .row {
                 flex-direction: column;
             }
         }
-
+        
         .col-wrap {
             flex: 50%;
             max-width: 50%;
             height: auto;
         }
-
+        
         @media screen and (max-width: 600px) {
             .col-wrap {
                 max-width: 100%;
             }
         }
-
         /*Product Landing header*/
-
+        
         #header {
             background-color: rgba(0, 0, 0, 0.6);
             padding: 20px 0;
@@ -130,52 +129,52 @@
             align-self: start;
             align-self: center;
         }
-
+        
         .header-grid {
             display: grid;
             background: transparent;
         }
-
+        
         .logo {
             grid-column: 1;
         }
-
+        
         .nav-items {
             grid-column: 13/13;
         }
-
+        
         .nav-items ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
-
+        
         .nav-items li {
             display: inline;
             text-align: end;
         }
-
+        
         .nav-items ul li a {
             padding: 0 20px 0 0;
             text-decoration: none;
             color: #fff;
         }
-
+        
         .text-wrapper {
             grid-row: 2/2;
             display: grid;
             z-index: 999;
         }
-
+        
         .super-title {
             letter-spacing: 2px;
             text-transform: Uppercase;
         }
-
+        
         .hero-title {
             align-self: center;
         }
-
+        
         #landing {
             display: grid;
             width: 100%;
@@ -192,7 +191,7 @@
             min-height: calc(100vh - var(--vh-offset));
             background-color: #2a2112;
         }
-
+        
         #landing .color-overlay {
             background-color: #313131;
             position: absolute;
@@ -203,7 +202,7 @@
             height: 100%;
             opacity: 0.4;
         }
-
+        
         .img-canvas {
             display: block;
             background-size: cover;
@@ -218,7 +217,7 @@
             border-radius: 0px;
             border: 0px;
         }
-
+        
         .img-canvas img .tile {
             background-size: cover;
             width: 100%;
@@ -228,13 +227,13 @@
             -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
         }
-
+        
         .tile-img {
             max-width: 100%;
             height: auto;
             margin: 0 0 -4px 0;
         }
-
+        
         #overview {
             background: url("../img/mc-full.jpg") no-repeat;
             background-position: 100% -6%;
@@ -243,15 +242,15 @@
             color: #000;
             padding: 10% 0;
         }
-
+        
         #overview .text-wrapper {
             text-align: left;
         }
-
+        
         .content {
             margin: 0 35% 0 0;
         }
-
+        
         .btn {
             background: transparent;
             border-style: none;
@@ -263,16 +262,16 @@
             border: 2px solid #0a4f0a;
             padding: 15px 10px 14px;
         }
-
+        
         .wrap {
             padding: 0 10px;
         }
-
+        
         #library {
             padding: 10% 0 0 0;
             z-index: 997;
         }
-
+        
         #library .gallery-wrapper {
             display: grid;
             position: relative;
@@ -280,11 +279,11 @@
             height: 200px;
             background: #fff;
         }
-
+        
         #library .content {
             margin: 0 35% 20% 0;
         }
-
+        
         .card-box {
             display: block;
             position: relative;
@@ -297,14 +296,14 @@
             z-index: 995;
             overflow: hidden;
         }
-
+        
         .sub-content {
             padding: 0 0 100px 0;
             text-align: center;
             position: relative;
             display: block
         }
-
+        
         #pricing {
             padding: 50px 0;
             display: block;
@@ -312,65 +311,60 @@
             background-color: #fff;
             color: #000;
         }
-
+        
         #pricing .sub-content {
             padding: 25px 0;
-
         }
-
+        
         .head-canvas {
             display: block;
             margin: auto;
             padding: 30px 0;
-
         }
-
+        
         .image {
             display: block;
             position: relative;
             width: 100%;
             height: auto;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
-
         }
-
+        
         .gr-canvas {
             background: #0a4f0a;
             padding: 20% 0 0 0;
         }
-
+        
         #pricing .w-container {
             padding-right: 15px;
             padding-left: 15px;
             margin-right: 10%;
             margin-left: 10%;
         }
-
+        
         .subscription-area {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
         }
-
+        
         .subscription-box {
-            display: flex;
-            flex-direction: column;
             position: relative;
-            margin: 0 2rem;
-            flex: 40.333%;
+            width: 100%;
             height: auto;
             background: rgba(10, 90, 10, 0.8);
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
             z-index: 995;
             color: #fff;
         }
-
+        
         .plf-box {
             display: block;
             min-height: 300px;
             align-items: center;
             text-align: center;
-
         }
-
+        
         .title-box {
             display: block;
             margin: 45px auto;
@@ -378,7 +372,7 @@
             text-align: center;
             color: #fff
         }
-
+        
         .subscription-title {
             letter-spacing: 2px;
             text-transform: Uppercase;
@@ -391,44 +385,41 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-
         }
-
+        
         .price-icon {
             color: #fff;
             width: 80px;
-
         }
+        
         .feature-box {
             min-height: 250px;
             padding: 10px;
         }
-
+        
         .i-frame {
             padding: 25px;
         }
-
+        
         .gold-title {
             margin: 0;
         }
-
+        
         .price-box {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-
+        
         .video-box {
             display: flex;
             justify-content: center;
             margin: 20px 0;
             box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
-
         }
-
+        
         .join-form {
-            display:flex;
+            display: flex;
             justify-content: center;
-
         }
