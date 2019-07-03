@@ -16,13 +16,13 @@
     <section id="header">
         <div class="container">
             <div class="header-grid">
-                <span class="logo"><i class="fab fa-xbox fa-2x" id="header-img"></i></span>
+                <span class="logo"><img src="" id="header-img"><i class="fab fa-xbox fa-2x"></i></img></span>
                 <nav id="nav-bar" class="nav-items ">
                     <ul>
                         <li><a href="#overview" class="nav-link">Overview</a></li>
                         <li><a href="#library" class="nav-link">Games</a></li>
                         <li><a href="#pricing" class="nav-link">Pricing</a></li>
-                        <li><a href=" " class="nav-link">Contact</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -41,12 +41,14 @@
         <div class=row>
             <div class="col-wrap">
                 <figure class="img-canvas">
-                    <img src="img/gears5.jpg" class="tile-img">
+                    <img src="https://lh3.googleusercontent.com/MGsx0lPE5eQv48VtHporLFYLWCulF9I2b9jh8NpS9n1vIE9vLbT2zZjFHO9lC7Ze2g0D43hvmNK4y2pdOuy1EmEdyOTRNf2CTt8jEgFP5YD91Wvw9-bc3e8NbUFoebfVTE286FghCp0SierzOHPIiBc0FwCiylL3jEofsf3TU6phbe6kMWXUYfsiKhakaVzQ6lD-aTnywkoEwQUk5CnHoTLJKu8Qo710Xxh_ucOgN15PR_Trg5PSLZnHBsit_qngDbQKndAEeQYDUNphNv3sNz2wVzV13N4Go_g5n4ik0aB54CwqKJpWo05mqZ2pFEl4i1BmJsR3lm_95QCbSy21sA4wUUtgyOUMtUu8I5vpal1LmilbuW1wwOesuvN4CGf5wbj7stc31kEfvC4wl4k_JWj66Ds6lGZQlqy_BFoYK_7X2kZjvEmQMXWGAaoYI9q2aPVHTFpGMNGVV-bDxXGFlMH8T_3UA69PFZy47ixTpd4h3bfysKc5HjLHBDlrE2REATTz6fl9xKdadE4dXRY9-f5UXb--d3PbNOSKehR4TI-XcX2QRBrGrQ8TE3UzRewdzM3OP-LmOzcKpNKQqgLX20YGFmg8nMcWppr2rFe_-VnATJVwrWUpBnKoYpbTMBsq_9e6Sasm_XzgyF_d6Icz30PYZCWyQls=w1668-h938-no"
+                        class="tile-img">
                 </figure>
             </div>
             <div class="col-wrap">
                 <figure class="img-canvas">
-                    <img src="img/fh4.jpg" class="tile-img">
+                    <img src="https://lh3.googleusercontent.com/gZ-jFILDtK265bHWpa6syL2y9JhemYXciQHHhWPawWA0BHZttaYJIWYSzTvUsYLmTfgGiaFZfkkQXL3M8fJMPP--pbrjJmqj7EDRkd5cRYRqPZo8XiAflCl_XduPXR7qW-n7w6c42VljYhevZfCSM9rrsBGk2KIGCnMfEda_HdGbSHeIkSeRTD5C7vAEoAFJKnSFzgj0S4rzmwLz3NRzMP-57GvvUqFtKCLUM8vVxt7o4E1OmTnt5W34Kw5dZ_lxZ_XTt-oardIis5_7zU11JMnKsueHaqn7X41JXFAULId7FNY-Zon5m_hvxTB88_ydRBItNZ2SUrbKVDdnfW_dC6A9Hq5OA3k8rtwFgS8FPBlRGZzXhOYkpHJnl1HMpGWPwOFfNIEmGJYad7lDJw_eIuNVj71yDOdAGyh9umefYcBxmlLh6ff_S6gAFMLZZi7XGWH6I0yPmfyx2EFmGi9cTejb4Ug54_xBisTbf1JF4nj0Fw5Y9F8iey0wr15ORse42u5Lt5QPSY_Y3HfUQk7k7Cpudyb-zNLBFs3Pajamh7yPxzmwb93r-vhLbfAQbP1WvHf6JFiVUkvRn_j881DswKkowaGicJc_gF1MpNCZe4bwqMaBnyfdZWdWdqXGSIYTfHlBhfaImZTWIRWkGfLkvr4JQokHwDo=w1668-h938-no"
+                        class="tile-img">
                 </figure>
             </div>
         </div>
@@ -107,11 +109,12 @@
                 </div>
                 <div class="sub-content">
                     <h3 class="head-lite">Console or PC, play anywhere anytime.</h3>
-                    <div class="row">
-                        <div class="join-form">
-
+                    <form class="join-form" id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="input-area">
+                            <input id="email" name="email" class="input-box" type="email" placeholder="Enter your E-mail" required target="-blank">
+                            <span><input type="submit" value="Get Started" class="btn" id="submit"></span>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -129,9 +132,13 @@
                             <h5 class="subscription-title head-med">Go Ultimate</h5>
                         </div>
                         <div class="icon-box">
-                            <img src="img/SVG/x-console-w.svg" class="price-icon">
+                            <img src="https://lh3.googleusercontent.com/_yMzilL2sQtAEsp6oF38XnOQHcbH5UQM0zs55tt2-jcakk-hXZ2mI7vbV2DE8pmNkoC54Y-OzexDvwMkBTnWdaa_0MqNvFi1tzJeGNOzxk3pAP9PKlgmDNkkdAEMK2ECDTztwNt2kKSQQ2Jv87KL21qC0gsX3i6BcfF69_mfkvey8uTgzN_R89-shArBoCLXC0H3ujvHcvm78I2zR0wHR-12JuUQqlY-HHdYU5OzshbEWJ2yOJt5YHytVq54e0MGBPPfd9FmvQt0QJmRayZukjISIZIpAayepjdsWfG1TTY6RBghh-F_lyeKOeiqCuxiR-MefUSEU-JoGzSRG2bRKhEGbga_vXZAgfBNjL5FO0A1zYd0PC52jmoG5WrYCPNtf1htEV4rvjTpbaq6xtSsedkWywH7sMAaJJssIkpu02Gw1_FNMoKkpmGKWUgJUAvl1wK2WasD_19Cwrq7h5eL7_aoDge04eIwoa5-zPvZV2Aw0dKhxw-VaScczaPLp4ekfkPN9onJaor2tjZRzOCCjZQRPv8l-idgKroOCJCDsAJydV-jADcbGhuejpZpN2fXmw1hCzBhMHIv562_gd5LPCE7kepIe4HeFEWJxxCFGUb2QcBORkvk-EMFvUG8nOI2iLLwAImis0SG29RIvcdpA7euNF0c8cI=w180-h60-no"
+                                class="price-icon">
+                            </img>
                             <i class="fas fa-plus i-frame"></i>
-                            <img src="img/SVG/pc-x.svg" class="price-icon">
+                            <img src="https://lh3.googleusercontent.com/BEh0n46pUz4c6TIJLku28elXMqFkUjdNGxxOD7E5S71b2y4rpt_ed7Uwdw8e8JShEV_IbHMMqJ5o4yA5GN5hZBOL8w_XCzTtM57YzeVF8Pu-7tohylE3fawWryc_mshlAGTbENLM6PLlydMk-tzC1fp4PpxCLKT-PIW1QtvHxYa7zDETa5QxIcWPXthNdfyVCLHOE4O1-apq0BvuufrElPgsP7KmgYULMjrCxV9WeBZu6F_pMUPeSB3sGZv0NdhymKxtF0D1hHV1ddMWqGTyOpBqq96w_drk7p8Gobt8j-Eh50bTQWQhluZVLnFk6j9tGV-vuQAx10WSZD4JoGO0Rlz3gk2lYYfq1CEjJe3q5PA5RO3ebLr0GqCxBLJ9Bjbw44naDZmHWE42zVewNkTlCrMNRv4RRnAYC548LVyY8AkKin2pSbHIDcceSl0GfBye7awiX-VLjVjl56Y-eO5X7up0xlkB08jtznn4nZdEOkjEyaX6_q0zP-NtVAdfgWFONLWqrymbPYrK9u4HoMjsAX-oS4lvprjkDAmLilblTvQiTThAxC0EntQTybeUZXQeSmZtUWrz1qWc_T0cNMco19nMfvFMnWdWGXBYLY5voYeCzw81WJlAPNd_H_KoQB0QV0q8I05ST6-7NylqRoGhwtzA14UTmZU=w151-h104-no"
+                                class="price-icon">
+                            </img>
                             <i class="fas fa-plus i-frame"></i>
                             <h4 class="gold-title">GOLD</h4>
                         </div>
@@ -158,6 +165,9 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="btn-area">
+                        <button class="btn"><a>Join Now<i class="fas fa-chevron-right wrap"></i></a></button>
+                    </div>
                 </div>
                 <div class="subscription-box">
                     <div class="plf-box">
@@ -165,7 +175,8 @@
                             <h5 class="subscription-title head-med">Xbox</h5>
                         </div>
                         <div class="icon-box">
-                            <img src="img/SVG/x-console-w.svg" class="price-icon">
+                            <img src="https://lh3.googleusercontent.com/_yMzilL2sQtAEsp6oF38XnOQHcbH5UQM0zs55tt2-jcakk-hXZ2mI7vbV2DE8pmNkoC54Y-OzexDvwMkBTnWdaa_0MqNvFi1tzJeGNOzxk3pAP9PKlgmDNkkdAEMK2ECDTztwNt2kKSQQ2Jv87KL21qC0gsX3i6BcfF69_mfkvey8uTgzN_R89-shArBoCLXC0H3ujvHcvm78I2zR0wHR-12JuUQqlY-HHdYU5OzshbEWJ2yOJt5YHytVq54e0MGBPPfd9FmvQt0QJmRayZukjISIZIpAayepjdsWfG1TTY6RBghh-F_lyeKOeiqCuxiR-MefUSEU-JoGzSRG2bRKhEGbga_vXZAgfBNjL5FO0A1zYd0PC52jmoG5WrYCPNtf1htEV4rvjTpbaq6xtSsedkWywH7sMAaJJssIkpu02Gw1_FNMoKkpmGKWUgJUAvl1wK2WasD_19Cwrq7h5eL7_aoDge04eIwoa5-zPvZV2Aw0dKhxw-VaScczaPLp4ekfkPN9onJaor2tjZRzOCCjZQRPv8l-idgKroOCJCDsAJydV-jADcbGhuejpZpN2fXmw1hCzBhMHIv562_gd5LPCE7kepIe4HeFEWJxxCFGUb2QcBORkvk-EMFvUG8nOI2iLLwAImis0SG29RIvcdpA7euNF0c8cI=w180-h60-no"
+                                class="price-icon">
                             </img>
                         </div>
                     </div>
@@ -187,6 +198,9 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="btn-area">
+                        <button class="btn"><a>Join Now<i class="fas fa-chevron-right wrap"></i></a></button>
+                    </div>
                 </div>
                 <div class="subscription-box">
                     <div class="plf-box">
@@ -194,7 +208,8 @@
                             <h5 class="subscription-title head-med">PC</h5>
                         </div>
                         <div class="icon-box">
-                            <img src="img/SVG/pc-x.svg" class="price-icon">
+                            <img src="https://lh3.googleusercontent.com/BEh0n46pUz4c6TIJLku28elXMqFkUjdNGxxOD7E5S71b2y4rpt_ed7Uwdw8e8JShEV_IbHMMqJ5o4yA5GN5hZBOL8w_XCzTtM57YzeVF8Pu-7tohylE3fawWryc_mshlAGTbENLM6PLlydMk-tzC1fp4PpxCLKT-PIW1QtvHxYa7zDETa5QxIcWPXthNdfyVCLHOE4O1-apq0BvuufrElPgsP7KmgYULMjrCxV9WeBZu6F_pMUPeSB3sGZv0NdhymKxtF0D1hHV1ddMWqGTyOpBqq96w_drk7p8Gobt8j-Eh50bTQWQhluZVLnFk6j9tGV-vuQAx10WSZD4JoGO0Rlz3gk2lYYfq1CEjJe3q5PA5RO3ebLr0GqCxBLJ9Bjbw44naDZmHWE42zVewNkTlCrMNRv4RRnAYC548LVyY8AkKin2pSbHIDcceSl0GfBye7awiX-VLjVjl56Y-eO5X7up0xlkB08jtznn4nZdEOkjEyaX6_q0zP-NtVAdfgWFONLWqrymbPYrK9u4HoMjsAX-oS4lvprjkDAmLilblTvQiTThAxC0EntQTybeUZXQeSmZtUWrz1qWc_T0cNMco19nMfvFMnWdWGXBYLY5voYeCzw81WJlAPNd_H_KoQB0QV0q8I05ST6-7NylqRoGhwtzA14UTmZU=w151-h104-no"
+                                class="price-icon">
                             </img>
                         </div>
                     </div>
@@ -216,11 +231,16 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="btn-area">
+                        <button class="btn"><a>Join Now<i class="fas fa-chevron-right wrap"></i></a></button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-
     </section>
+    <footer id="contact">
+
+    </footer>
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
 
 </html>
